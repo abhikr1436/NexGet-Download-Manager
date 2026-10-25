@@ -1,0 +1,14 @@
+<!doctype html><meta charset="utf-8">
+<style>
+ body{font:13px Segoe UI,Arial,sans-serif;width:340px;margin:0}
+ header{background:linear-gradient(135deg,#6E4BFF,#4326D9);color:#fff;padding:10px 12px;font-weight:600;display:flex;align-items:center;gap:8px}
+ .row{padding:9px 12px;border-bottom:1px solid #EFEDF6;display:flex;align-items:center;gap:8px}
+ .m{flex:1;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;font-size:12px}
+ button{background:#5B3DF5;color:#fff;border:0;border-radius:3px;padding:4px 8px;cursor:pointer}
+ #st{font-size:12px;margin-left:auto}
+</style>
+<header><img src="icon32.png" width="20" height="20" alt="">NexGet</header>
+<div class="row"><label><input type="checkbox" id="cap"> Capture browser downloads</label><span id="st"></span></div>
+<div class="row"><button id="vid">Download video on this page</button></div>
+<div id="list"></div>
+<script src="popup.js"></script>

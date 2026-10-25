@@ -1,0 +1,8 @@
+# build output
+dist/
+installer/out/
+res/app.res
+*.exe
+store/*.zip
+store/chromium/
+store/firefox/
